@@ -55,8 +55,8 @@ function Createepisode(){
   }
     return(
         <div>
-       <Header/>
-       <div className="wrapper">
+       {/* <Header/> */}
+       <div className="bhanu">
         <p>create an episode</p>
         <Inputcomponent type="text" placeholder="Enter title" state={title} setState={setTitle} />
         <Inputcomponent type="text" placeholder="Enter description" state={desc} setState={setDesc} />
